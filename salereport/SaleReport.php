@@ -5,7 +5,7 @@ require_once "../vendor/autoload.php";
 class SaleReport extends \koolreport\KoolReport
 {
 
-    use \koolreport\clients\Bootstrap; // for adding style to report 
+    use \koolreport\bootstrap5\Theme;
 
 
       //Create settings()
@@ -33,7 +33,7 @@ protected function setup()
 {
     //we will get the top 10 paying customers
     $this->src("automaker")->query("
-    SELECT  customers.customerNumber, sum(payments.amount) as saleamount
+    SELECT  customers.customerName, sum(payments.amount) as saleamount
     FROM payments
     JOIN customers ON customers.customerNumber=payments.customerNumber
     GROUP BY customers.customerName

@@ -4,8 +4,42 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "67a45df210f0cb60a3709144f471c54d",
+    "content-hash": "ae9aed327eae5252c0708a42c31febaa",
     "packages": [
+        {
+            "name": "koolreport/bootstrap5",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/koolreport/bootstrap5.git",
+                "reference": "26a9f2a2b1686b2f8baa4cdf5489af81a63b0ecf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/koolreport/bootstrap5/zipball/26a9f2a2b1686b2f8baa4cdf5489af81a63b0ecf",
+                "reference": "26a9f2a2b1686b2f8baa4cdf5489af81a63b0ecf",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Bootstrap 5 Theme For KoolReport",
+            "homepage": "https://www.koolreport.com",
+            "keywords": [
+                "PHP Reporting Framework",
+                "mysql reporting tools",
+                "php",
+                "php reprting tools",
+                "report theme"
+            ],
+            "support": {
+                "issues": "https://github.com/koolreport/bootstrap5/issues",
+                "source": "https://github.com/koolreport/bootstrap5/tree/v1.0.0"
+            },
+            "time": "2024-03-29T08:28:01+00:00"
+        },
         {
             "name": "koolreport/core",
             "version": "6.5.0",

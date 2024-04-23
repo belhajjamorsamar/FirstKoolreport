@@ -1,5 +1,11 @@
 {
-    "require": {
-        "koolreport/core": "^6.5"
+    "repositories":[
+        {"type":"composer","url":"https://repo.koolreport.com"}
+    ],
+    "require":{
+        "koolreport/core": "^6.5",
+        "koolreport/bootstrap5": "^1.0",
+        "koolreport/charttable":"*"
+       
     }
 }
