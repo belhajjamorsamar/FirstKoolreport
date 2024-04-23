@@ -16,3 +16,7 @@ Le widget BarChart de KoolReport est utilisé pour créer des graphiques à barr
 
 Le widget Card de KoolReport est utilisé pour afficher des informations sous forme de carte dans un rapport. Il est souvent utilisé pour mettre en évidence des statistiques clés ou des données importantes de manière visuellement attrayante. Dans le contexte de KoolReport, le widget Card est utilisé pour fournir un résumé concis des données importantes, telles que les totaux, les moyennes ou les valeurs maximales.
 
+###voici mon premier rapport koolreport
+![image](https://github.com/belhajjamorsamar/FirstKoolreport/assets/90092910/50b4a207-f885-4d26-984e-4c7afad65829)
+
+
